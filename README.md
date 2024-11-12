@@ -1,26 +1,18 @@
-# iOSMemoryPatch
+#MemoryPatch for iOS
 
 
-Developed by: DEVMUSTFA
-Instagram: @QIHB
+BT MUSTFA DEV .
+IG: @QIHB
 
-# Purpose:
-This tool is designed to help protect games and applications from tampering and hacking by modifying in-memory data. It works by accessing the virtual memory addresses of running processes, checking for ASLR (Address Space Layout Randomization), and modifying memory values based on certain conditions. This can be useful for securing applications against unwanted modifications.
+# Goal: By altering in-memory data, this utility helps shield games and apps from hackers and manipulation. It functions by gaining access to the virtual memory locations of active processes, detecting Address Space Layout Randomization (ASLR), and altering memory contents in response to specific criteria. Protecting apps from unauthorized changes can be aided by this.
 
 # Features:
-Detects whether ASLR is active in the application.
-Calculates the actual memory address considering ASLR.
-Modifies memory values in running processes based on 32-bit or 16-bit data.
-Temporarily changes memory protection to allow reading and writing.
-Warning:
-This tool should be used with caution. Improper use can lead to unintended system behavior or application crashes. It is intended for personal, educational use and should not be used for malicious purposes.
+determines if the application's ASLR is activated.
+takes ASLR into account while calculating the actual memory address.
+alters memory values in active processes according to 16- or 32-bit data.
+enables reading and writing by momentarily altering memory protection.
+Caution is advised when using this tool. Application crashes or unexpected system behavior can result from improper use. It is meant for individual, educational
 
-# License:
-This code is available for personal use only.
-Redistribution or modification of this code for commercial purposes is strictly prohibited without prior permission from the author.
-You may not sell, lease, or sublicense this code.
-Any use of this code in public repositories or projects should provide proper attribution to the original author (DEVMUSTFA, Instagram: @QIHB).
-This software is provided "as-is" without any warranties, either expressed or implied.
-DISCLAIMER:
-The author is not responsible for any damages arising from the use or misuse of this software.
+#عن الاداة
+تم تصميم هذه الأداة لحماية الألعاب والتطبيقات من التلاعب والاختراق من خلال تعديل البيانات في الذاكرة. تعمل الأداة على الوصول إلى عناوين الذاكرة الافتراضية للعمليات الجارية، والتحقق من وجود ASLR (توزيع الذاكرة العشوائي)، وتعديل قيم الذاكرة بناءً على شروط معينة. يمكن أن تكون هذه الأداة مفيدة لتأمين التطبيقات ضد التعديلات غير المرغوب فيها.
 
