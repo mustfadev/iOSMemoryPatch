@@ -4,7 +4,8 @@
 BT MUSTFA DEV .
 IG: @QIHB
 
-# Goal: By altering in-memory data, this utility helps shield games and apps from hackers and manipulation. It functions by gaining access to the virtual memory locations of active processes, detecting Address Space Layout Randomization (ASLR), and altering memory contents in response to specific criteria. Protecting apps from unauthorized changes can be aided by this.
+# Goal
+ By altering in-memory data, this utility helps shield games and apps from hackers and manipulation. It functions by gaining access to the virtual memory locations of active processes, detecting Address Space Layout Randomization (ASLR), and altering memory contents in response to specific criteria. Protecting apps from unauthorized changes can be aided by this.
 
 # Features:
 determines if the application's ASLR is activated.
